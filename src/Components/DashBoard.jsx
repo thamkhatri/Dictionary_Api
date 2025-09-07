@@ -55,6 +55,7 @@ const DashBoard = () => {
         <div className='min-h-screen bg-cover  bg-fixed bg-center flex flex-col items-center py-5 md:py-10'
             style={{ backgroundImage: `url(${BgImage})` }}>
             <h1 className=' text-4xl  md:text-7xl font-extrabold text-emerald-700 tracking-wider  mb-4 md:mb-10 outline-2px  outline-offset-8 '>Dictionary</h1>
+
             <SearchBar input={input} setInput={setInput} handleSubmit={handleSubmit} />
 
             {/* Result */}

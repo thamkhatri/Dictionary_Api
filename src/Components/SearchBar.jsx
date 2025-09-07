@@ -4,7 +4,7 @@ import { FiSearch } from "react-icons/fi";
 
 const SearchBar = ({ input, handleSubmit, setInput }) => {
     return (
-        <div>
+        <div className='w-full max-w-3xl mx-auto px-5 '>
             {/* SerachBar */}
             <div className='bg-green-50 mb-4 rounded-2xl flex flex-col shadow-lg p-3 md:p-6 text-center  md:mb-6  outline-2 outline-offset-2 outline-emerald-500'>
                 <p className='text-sm font-semibold text-gray-800 mb-2 md:mb-4 md:text-3xl'>What word piques your interest?</p>
